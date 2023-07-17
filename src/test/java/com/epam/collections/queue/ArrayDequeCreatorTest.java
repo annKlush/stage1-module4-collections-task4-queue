@@ -19,16 +19,6 @@ public class ArrayDequeCreatorTest {
                         new LinkedList<>(List.of(1, 4)),
                         new LinkedList<>(List.of(5, 6)),
                         List.of(1, 4, 5, 6)),
-/*
-1 3 4 2 // 5 4 7 9 // 8 5 8 3
-3 4 2 5 4 //7 9 1
-4 2 5 4 8 5 //8 3 3
-2 5 4 8 5 7 9 //1 4
-5 4 8 5 7 9 8 3 //3 2
-4 8 5 7 9 7 3 1 4
-
-
- */
                 Arguments.of("QueuesWith6Elements",
                         new LinkedList<>(List.of(1, 3, 5, 4, 7, 9)),
                         new LinkedList<>(List.of(4, 2, 8, 5, 8, 3)),
